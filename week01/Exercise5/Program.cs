@@ -7,14 +7,11 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Exercise5 Project.");
 
-        static void Main(Strings[] args)
-        {
-            DisplayWelcome();
-            string name = PromptUserName();
-            int number = PromptUserNumber();
-            SquareNumber(number);
-            DisplayResult(name, number);
-        }
+        DisplayWelcome();
+        string name = PromptUserName();
+        int number = PromptUserNumber();
+        SquareNumber(number);
+        DisplayResult(name, number);
 
         static void DisplayWelcome()
         {
@@ -44,7 +41,7 @@ class Program
         
         static void DisplayResult(string username, int sqnum)
         {
-            Console.WriteLine($"{username}, the square of your number is {sqnum}");            
+            Console.WriteLine($"{username}, the square of your number is {sqnum}");
         }
     }
 }
