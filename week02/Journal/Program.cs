@@ -1,3 +1,7 @@
+// I added another file named QuoteGenerator.cs to generate randome quotes whenever a user would add an entry to their journal. They would be asked if
+// They would want to hear their daily quotes. It works the same with the PromptGenerator but the key difference to this is that they can choose to
+// view their quotes or not view them. This will only show up if the user would enter an entry.
+
 using System;
 
 class Program
